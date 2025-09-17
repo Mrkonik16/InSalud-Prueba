@@ -24,7 +24,8 @@ Repositorio destinado a almacenar el frontend y backend de la prueba técnica pr
 Para ejecutar la Base de Datos, realize lo siguiente:
 
 1. Ingresar a pgAdmin con las credenciales respectivas
-2. Ejecutar el siguiente script:
+2. Crear una nueva base de datos llamada 'insalud' (IMPORTANTE)
+3. Acceder a la base de datos y ejecutar el siguiente script:
 ```sql
    CREATE TABLE IF NOT EXISTS pacientes (
   id BIGSERIAL PRIMARY KEY,
