@@ -1,0 +1,273 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    background-color: white !important;
+
+    .font-bold.text-lg {
+        color: deepskyblue;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    a {
+        background-color: midnightblue;
+        padding:10px;
+        border-radius:20px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .max-w-6xl.mx-auto.flex.items-center.justify-between {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    
+    .space-x-4 {
+        display: flex;
+        flex-direction: row;
+        column-gap: 40px
+    }
+}
+
+h4.text-xl.mb-4 {
+    margin: 0;
+    font-size: 40px;
+    color: deepskyblue
+}
+
+div {
+    color: midnightblue;
+}
+
+form.card.max-w-lg.w-full.p-4 {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+label.block.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+div#root {
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2.text-xl.font-bold.mb-3 {
+    color: lightskyblue;
+    font-size: 40px;
+}
+
+.text-red-600.mb-2 {
+    color: red;
+}
+
+form.card.w-full.max-w-md {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+label.block.mb-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: midnightblue;
+    font-weight: 700;
+}
+
+label.block.mb-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: midnightblue;
+    font-weight: 700;
+}
+
+input.w-full.p-2.border {
+    height: 40px;
+    width: 400px;
+    background-color: lightskyblue;
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button.btn-primary.w-full {
+    background-color: midnightblue;
+    width: 120px;
+    margin-top: 30px;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.p-6 {
+    h1.text-2xl.mb-4 {
+        color: lightskyblue; 
+    }
+
+    h2 {
+        color: midnightblue;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        color: midnightblue;
+        margin-bottom: 0px;
+    }
+
+    .card.w-full.max-w-lg {
+        button {
+            background-color: red;
+        }
+    }
+
+    form.card.max-w-lg.w-full.p-4 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        row-gap: 20px;
+
+        label.block.mb-3 {
+            color: midnightblue;
+
+            select.w-full.p-2.border.rounded {
+                background-color: midnightblue;
+                padding: 5px 12px;
+                border-radius: 30px;
+                border: 0px;
+            }
+        }
+
+        .mt-4.flex.gap-2 {
+            display: flex;
+            flex-direction: row;
+            column-gap: 50px;
+            justify-content: center;
+
+            button {
+                background-color: midnightblue;
+            }
+        }
+    }
+
+    table.w-full {
+        
+        thead {
+            color: lightskyblue;
+        }
+
+        tbody {
+            color: midnightblue;
+            button {
+                background-color: midnightblue;
+                width: 60px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+form.p-6.rounded.shadow-md.bg-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+button.bg-blue-500.text-white.px-4.py-2.rounded.w-full {
+    background-color: midnightblue;
+    width: 150px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
