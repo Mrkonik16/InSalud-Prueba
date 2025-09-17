@@ -1,12 +1,38 @@
-# React + Vite
+# InSalud - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend del sistema **InSalud**, desarrollado en **React + Vite + React Router**, que permite:
 
-Currently, two official plugins are available:
+- Login de usuario con JWT
+- Gestión de atenciones (admin)
+- Consulta de mis atenciones (paciente)
+- Redirecciones según rol
+- Estilo con Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Requisitos previos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Node.js 18+**
+- **npm** o **yarn**
+
+---
+
+## Acalaraciones Importantes
+1. Al ser mi primer frontend realizado con ReactJS, pido disculpas en caso pueda verse algo rudimentario.
+2. Si bien para ambos usuarios (Admin y Paciente) se le muestra el navbar y ambos pueden acceder a los mismos, unicamente el usuario con rol admin puede ejecutar los endpoints de manera exitosa. (verificable)
+
+---
+
+## 🛠Instalación y configuración
+
+### 1. Clonar el repositorio
+```bash
+git clone
+cd insalud/frontend
+```
+
+### 2. Instalar dependencias
+Ejecutar `npm install`
+
+### 3. Ejecutar en modo desarrollo
+`npm run dev` IMPORTANTE: Se debe tener activado el backend antes de utilizar el frontend. El frontend estará disponible en: `http://localhost:5173`. Recordar usar las credenciales: `adminInsalud@gmail.com / admin123 o userInsalud@gmail.com / user123`.
